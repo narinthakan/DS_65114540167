@@ -1,0 +1,8 @@
+<h1>ค้นหารายวิชาด้วย ID</h1>
+<form method="get">
+    <input type="text" name="id">
+    <button type="submit">ค้นหา</button>
+</form>
+{% for i in A2 %}
+<h1>{{ i.id }} {{ i.name }} {{ i.teacher }}</h1>
+{% endfor %}
